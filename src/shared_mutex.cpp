@@ -14,7 +14,7 @@ void read() {
     // multiple threads can access x at the same time
     // start of critical section
     std::this_thread::sleep_for(100ms);
-    // since the mutex is shared, each thread sleeps for 100 ms at the same time, (parallel)
+    // since the mutex is shared, each thread sleeps for 100 ms at the same time, (concurrently)
     // total time spent sleeping = 100 ms
 	std::cout << x << std::endl;
     // end of critical section
