@@ -2,9 +2,10 @@
 
 ## Topics covered:
 
-- Thread
-- Mutex
-- Lock guard
+- thread
+- mutex
+- lock guard
 - unique lock
 - timed mutex
 - recursive mutex
+- shared mutex
