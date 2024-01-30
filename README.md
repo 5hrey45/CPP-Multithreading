@@ -14,3 +14,4 @@
 - lazy initialization
 - call_once and once_flag
 - deadlock
+- scoped_lock
