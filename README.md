@@ -13,3 +13,4 @@
 - thread_local
 - lazy initialization
 - call_once and once_flag
+- deadlock
