@@ -71,3 +71,16 @@ int main() {
     t1.join();
     t2.join();
 }
+
+/*
+another option would be to use Meyer's singleton
+
+void process() {
+    static Test ptest;
+    ptest.func();
+}
+
+this ensures that ptest is initialized only once by the first thread which reaches it and
+other threads will be blocked until it's been initialized
+
+*/
